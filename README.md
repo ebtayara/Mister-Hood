@@ -33,4 +33,4 @@ We went with PostgreSQL because of how easy it is to write queries with it. We f
 We consider SQLAlchemy to be the ORM of choice for working with relational databases in Python since it is easy to implement and does not require advanced knowledge of SQL.
 
 ## What's Next?
-There are a couple of bugs that need fixing and a couple of additional features we might want to implement in the near future, like a page for News on the many companies users are investing in and a Dark Mode option that can be toggled for accessibility.
+There are a couple of bugs that need fixing (dashboard not loading) and a couple of additional features we might want to implement in the near future, like a page for News on the many companies users are investing in and a Dark Mode option that can be toggled for accessibility.
