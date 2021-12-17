@@ -46,7 +46,9 @@ function Dashboard() {
 
     // coment out below. test function
     const oneWeekGraphDataTrimmedport = (data) => {
+        console.log(data)
         let result;
+        console.log(result)
         for (let i = 0; i < data.length; i++) {
             if (data[i].date === `${moment().subtract(30, 'days').format('YYYY-MM-DD')} 10:00:00` ||
                 data[i].date === `${moment().subtract(31, 'days').format('YYYY-MM-DD')} 10:00:00` ||
@@ -88,6 +90,7 @@ function Dashboard() {
 
     const add_buyingpower = (array) => {
         let buying_power = user.buying_power;
+        console.log(buying_power)
         for (let i = 0; i < array.length; i++) {
             array[i].close = (array[i].close+buying_power).toFixed(2)
         }
